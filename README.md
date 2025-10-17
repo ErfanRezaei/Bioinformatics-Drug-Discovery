@@ -33,7 +33,7 @@ The project is structured into five sequential Jupyter Notebooks, each represent
 
 4.  **`Model building.ipynb` — Predictive Modeling**:
 
-    - Builds, trains, and validates a **Random Forest Regressor** model to learn the relationship between the molecular fingerprints and the pIC50 values.
+    - Uses a **Random Forest Regressor** model to learn the relationship between the molecular fingerprints and the pIC50 values.
 
 5.  **`Model comparison.ipynb` — Performance Evaluation**:
     - Compares the performance of the primary Random Forest model against a suite of other ML algorithms.
