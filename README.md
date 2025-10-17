@@ -47,8 +47,8 @@ The project is structured into five sequential Jupyter Notebooks, each represent
 Clone the repository:
 
 ```bash
-git clone <your-repo-link>
-cd <your-repo-name>
+git clone https://github.com/ErfanRezaei/Bioinformatics-Drug-Discovery
+cd Bioinformatics-Drug-Discovery
 ```
 
 **2. Execute the Notebooks:**
@@ -61,7 +61,7 @@ Run the Jupyter Notebooks in the specified order, as the output of each notebook
 
 ## Model Performance
 
-The performance of the final **Random Forest Regressor** is visualized in the scatter plot below. The plot compares the pIC50 values predicted by the model against the actual experimental values from the test set.
+The performance of the final **Random Forest Regressor** is visualized in the scatter plot below. The plot compares the pIC50 values predicted by the model against the actual experimental values from the test set:
 
 ![Performance of the Random Forest Model](assets/Sample1.PNG)
 
@@ -69,6 +69,6 @@ The performance of the final **Random Forest Regressor** is visualized in the sc
 
 ## Model Comparison
 
-To evaluate the effectiveness of different machine learning approaches, a comprehensive comparison of various regression models was performed. The bar plot below ranks the performance of each algorithm based on its R-Squared score.
+To evaluate the effectiveness of different machine learning approaches, a comprehensive comparison of various regression models was performed. The bar plot below ranks the performance of each algorithm based on its R-Squared score:
 
 ![Comparison of Regression Models](assets/Sample2.PNG)
